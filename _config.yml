@@ -104,7 +104,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "이진우, Jinwoo (Colin) Lee"
+  name             : "이진우" 
+  eng name         : "Jinwoo (Colin) Lee"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "타협하지 않는 공상가이길."
   location         : "Busan, Korea"
@@ -149,7 +150,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/inturldd/"
 
 
 # Reading Files
@@ -218,7 +219,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 4 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
