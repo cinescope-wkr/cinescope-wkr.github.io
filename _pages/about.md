@@ -1,5 +1,5 @@
 ---
-title: "About Futura, From"
+title: "About Futura From,"
 permalink: /about/
 layout: single
 date: 2022-07-31
