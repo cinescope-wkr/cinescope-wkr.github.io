@@ -6,21 +6,28 @@ layout: single
 
 ## About the blog 
 ---
-**시각예술이 기술과 결합하며 탄생하는 가치**에 대해서 관심을 가지고 있다.  
-어떻게 시각예술 분야의 공상을 과학기술을 통해 실현할 수 있을지 생각을 나눈다.<br><br>
-블로그에서 다루는 구체적인 주제는 아래와 같다. 
-- computational imagining and photography 
-- computer graphics
-- human-computer interation 
-- cinematogrphy and cinema 
-- personal documents 
-
+**시각예술이 기술과 결합하며 탄생하는 가치**에 대해 큰  관심을 가지고 있습니다.  
+**과학기술을 통해 어떠한 방식으로 시각예술 분야의 공상을 실현**할 수 있을지 생각을 나누고자 합니다.<br><br>
+블로그에서 다루는 구체적인 주제는 아래와 같습니다. 
+- Computational Imagining and Photography 
+- Computer Graphics
+- Human-Computer interation 
+- Cinematogrphy and Cinema 
+- Personal Documents 
+<br><br>
 ## About me 
 ---
 \* 자세한 소개는 아래의 링크로 첨부한 내용을 참고 바랍니다.
-<br> <br>
-&nbsp;&nbsp;- [Notion resume ](google.com)<br>
-&nbsp;&nbsp;- [Academic CV](google.com)
+<br>
+&nbsp;&nbsp;- [Notion resume ](https://www.google.com)<br>
+&nbsp;&nbsp;- [Academic CV](https:/www.google.com)
 
-- Eduacation: KAIST Electrical Engineering and Computer Science (Double Major, 2019~)<br>
-- Social and Activities : KAIST RUN (Problem Solving / Algorithm Club)
+저는 KAIST에서 전산학을 공부하고 있으며 시각 예술 분야에서 과학 기술이 빚어낼 수 있는 가능성을 믿습니다. 스스로 시네필임을 자처하며 카메라를 챙겨 다닐 정도로 시각 예술에 관심이 많습니다. 많은 매채들을 접하며 그동안 과학 기술이 영상 예술 분야에서 보여준 가치에 감명받았습니다. 제 나름대로 이 분야에서 의미있는 족적을 남기고 싶습니다.<br><br>
+### Eduacation: 
+
+    KAIST (Korea Advanced Institute of Science and Technology)
+- Electrical Engineering and Computer Science (Double Major, 2019.03~)
+
+### Social and Activities:
+
+    KAIST RUN (Problem Solving / Algorithm Club)
