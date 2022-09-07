@@ -34,5 +34,5 @@ last modified at: 2022-07-31
 
 ### Social and Activities:
 ---
-KAIST RUN (Problem Solving / Algorithm Club)
+KAIST RUN (Problem Solving / Algorithm Club)<br>
 KAIST SEED (Education Activities)
