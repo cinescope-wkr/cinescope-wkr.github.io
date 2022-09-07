@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
     "title": "About Futura From,",
-    "excerpt":"About the blog 시각예술이 기술과 결합하며 탄생하는 가치에 대해 큰 관심을 가지고 있습니다. 과학기술을 통해 어떠한 방식으로 시각예술 분야의 공상을 실현할 수 있을지 생각을 나누고자 합니다. 블로그에서 다루는 구체적인 주제는 아래와 같습니다. Computational Imagining and Photography Computer Graphics Human-Computer interation Cinematogrphy and Cinema Personal Documents About me * 자세한 소개는...","url": "http://localhost:4000/about/"
+    "excerpt":"About the blog 시각예술이 기술과 결합하며 탄생하는 가치에 대해 큰 관심을 가지고 있습니다. 과학기술을 통해 어떠한 방식으로 시각예술 분야의 공상을 실현할 수 있을지 생각을 나누고자 합니다. 블로그에서 다루는 구체적인 주제는 아래와 같습니다. Computational Imagining and Photography Computer Graphics Human-Computer Interation Cinematogrphy and Cinema Personal Documents About me * 자세한 소개는...","url": "http://localhost:4000/about/"
   },{
     "title": "Posts by Category",
     "excerpt":" ","url": "http://localhost:4000/categories/"

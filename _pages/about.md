@@ -13,7 +13,7 @@ last modified at: 2022-09-07
 블로그에서 다루는 구체적인 주제는 아래와 같습니다. 
 - Computational Imagining and Photography 
 - Computer Graphics
-- Human-Computer interation 
+- Human-Computer Interation 
 - Cinematogrphy and Cinema 
 - Personal Documents 
 <br><br>
