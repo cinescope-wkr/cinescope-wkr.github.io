@@ -3,7 +3,7 @@ title: "About Futura From,"
 permalink: /about/
 layout: single
 date: 2022-07-31
-last modified at: 2022-07-31
+last modified at: 2022-09-07
 ---
 
 ## About the blog 
