@@ -37,6 +37,7 @@ last modified at: 2022-09-07
 - Early Graduation (2017.03~2019.02)
 
 ### Reserach: 
+---
 <br><br>
 ### Social and Activities:
 ---
