@@ -33,7 +33,7 @@ last modified at: 2022-09-07
  KAIST (Korea Advanced Institute of Science and Technology)
 - Electrical Engineering and Computer Science (Double Major, 2019.03~)
 
- Busan Science Highschool 
+ Busan Science High School
 - Early Graduation (2017.03~2019.02)
 
 ### Reserach: 
