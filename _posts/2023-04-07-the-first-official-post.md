@@ -13,8 +13,10 @@ toc_sticky: true
 date: 2023-04-07
 last_modified_at: 2023-04-07
 ---
-## **동해에 가기로 하다. **
-> Jekyll을 이용한 정적 웹사이트를 생성하는 과정을 보여준다. 
+## 동해에 가기로 하다.
+
+[image](../assets/image/screenshot.png)
+> 동해안 대설 특보 
 - 시작 
 - 종료
 - *bundle exec jekyll serve*

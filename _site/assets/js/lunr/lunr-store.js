@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "동해에 다녀왔습니다. 혼자서.",
-        "excerpt":"**동해에 가기로 하다. **     Jekyll을 이용한 정적 웹사이트를 생성하는 과정을 보여준다.         시작     종료     bundle exec jekyll serve      로컬 서버 확인  ","categories": ["Blog"],
+        "excerpt":"동해에 가기로 하다.   image     동해안 대설 특보         시작     종료     bundle exec jekyll serve      로컬 서버 확인  ","categories": ["Blog"],
         "tags": ["Blog","Photography"],
         "url": "/blog/the-first-official-post/",
         "teaser": null
