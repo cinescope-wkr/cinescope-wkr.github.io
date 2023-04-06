@@ -1,10 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-08T11:48:26+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Futura From,</title><subtitle>타협하지 않는 공상가이길.</subtitle><author><name>이진우</name><email>cinescope@kaist.ac.kr</email></author><entry><title type="html">[Jekyll] 시험용 포스트</title><link href="http://localhost:4000/blog/the-first-post/" rel="alternate" type="text/html" title="[Jekyll] 시험용 포스트" /><published>2022-07-31T00:00:00+09:00</published><updated>2022-07-31T00:00:00+09:00</updated><id>http://localhost:4000/blog/the-first-post</id><content type="html" xml:base="http://localhost:4000/blog/the-first-post/"><![CDATA[<h2 id="jekyll을-통한-정적-웹사이트-생성-예시"><strong>Jekyll을 통한 정적 웹사이트 생성 예시</strong></h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-07T01:05:38+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Futura From,</title><subtitle>타협하지 않는 공상가이길.</subtitle><author><name>이진우</name><email>cinescope@kaist.ac.kr</email></author><entry><title type="html">동해에 다녀왔습니다. 혼자서.</title><link href="http://localhost:4000/blog/the-first-official-post/" rel="alternate" type="text/html" title="동해에 다녀왔습니다. 혼자서." /><published>2023-04-07T00:00:00+09:00</published><updated>2023-04-07T00:00:00+09:00</updated><id>http://localhost:4000/blog/the-first-official-post</id><content type="html" xml:base="http://localhost:4000/blog/the-first-official-post/"><![CDATA[<h2 id="동해에-가기로-하다-">**동해에 가기로 하다. **</h2>
 <blockquote>
   <p>Jekyll을 이용한 정적 웹사이트를 생성하는 과정을 보여준다.</p>
   <ul>
     <li>시작</li>
     <li>종료</li>
+    <li><em>bundle exec jekyll serve</em></li>
   </ul>
 </blockquote>
 
-<h2 id="로컬-서버-확인">로컬 서버 확인</h2>]]></content><author><name>이진우</name><email>cinescope@kaist.ac.kr</email></author><category term="Blog" /><category term="Blog" /><category term="jekyll" /><category term="Github" /><category term="Git" /><summary type="html"><![CDATA[md 파일에 Markdown 문법으로 작성하여 Github 원격 저장소에 업로드 해보자. editor는 Visual Studio code을 사용하며 Jekyll을 이용해 로컬 서버에서 사이트 작동 확인도 해보자.]]></summary></entry></feed>
+<h2 id="로컬-서버-확인">로컬 서버 확인</h2>]]></content><author><name>이진우</name><email>cinescope@kaist.ac.kr</email></author><category term="Blog" /><category term="Blog" /><category term="Photography" /><summary type="html"><![CDATA[2023년 2월 동해안에 대설 특보가 내린 날 동해에 다녀왔다. 눈은 온데간데 없었지만 혼자 만끽하는 동해는 생경한 느낌을 안겨주었다.]]></summary></entry><entry><title type="html">[Jekyll] 시험용 포스트</title><link href="http://localhost:4000/blog/the-first-post/" rel="alternate" type="text/html" title="[Jekyll] 시험용 포스트" /><published>2023-01-11T00:00:00+09:00</published><updated>2023-04-05T00:00:00+09:00</updated><id>http://localhost:4000/blog/the-first-post</id><content type="html" xml:base="http://localhost:4000/blog/the-first-post/"><![CDATA[<h2 id="jekyll을-통한-정적-웹사이트-생성-예시"><strong>Jekyll을 통한 정적 웹사이트 생성 예시</strong></h2>
+<blockquote>
+  <p>Jekyll을 이용한 정적 웹사이트를 생성하는 과정을 보여준다.</p>
+  <ul>
+    <li>시작</li>
+    <li>종료</li>
+    <li><em>bundle exec jekyll serve</em></li>
+  </ul>
+</blockquote>
+
+<h2 id="로컬-서버-확인">로컬 서버 확인</h2>]]></content><author><name>이진우</name><email>cinescope@kaist.ac.kr</email></author><category term="Blog" /><category term="Blog" /><category term="jekyll" /><category term="Github" /><category term="Git" /><summary type="html"><![CDATA[md 파일에 Markdown 문법으로 작성하여 Github 원격 저장소에 업로드 해보자. editor는 Visual Studio code을 사용하며 Jekyll을 이용해 로컬 서버에서 정적 사이트 작동 확인도 해보자.]]></summary></entry></feed>
