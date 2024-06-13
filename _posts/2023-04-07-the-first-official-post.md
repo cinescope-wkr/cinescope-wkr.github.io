@@ -3,9 +3,11 @@ title:  "동해에 다녀왔습니다. 혼자서."
 excerpt: "2023년 2월 동해안에 대설 특보가 내린 날 동해에 다녀왔다. 눈은 온데간데 없었지만 혼자 만끽하는 동해는 생경한 느낌을 안겨주었다. "
 
 categories:
-  - Blog
+  - Photography & Cinematography
 tags:
-  - [Blog, Photography]
+  - [Photography, Cinematography, Travel]
+
+
 
 toc: true
 toc_sticky: true

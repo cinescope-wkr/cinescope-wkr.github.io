@@ -6,9 +6,9 @@ var store = [{
         "teaser": null
       },{
         "title": "동해에 다녀왔습니다. 혼자서.",
-        "excerpt":"동해에 가기로 하다.   image     동해안 대설 특보         시작     종료     bundle exec jekyll serve      로컬 서버 확인  ","categories": ["Blog"],
-        "tags": ["Blog","Photography"],
-        "url": "/blog/the-first-official-post/",
+        "excerpt":"동해에 가기로 하다.   image     동해안 대설 특보         시작     종료     bundle exec jekyll serve      로컬 서버 확인  ","categories": ["Photography & Cinematography"],
+        "tags": ["Photography","Cinematography","Travel"],
+        "url": "/photography%20&%20cinematography/the-first-official-post/",
         "teaser": null
       },{
     "title": "About Futura From,",
