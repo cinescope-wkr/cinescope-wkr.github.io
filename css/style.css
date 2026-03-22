@@ -1,15 +1,15 @@
 :root {
-  --page-bg: #faf8f2;
+  --page-bg: #ffffff;
   --surface: #ffffff;
-  --surface-soft: #f3eee3;
-  --line: #d8d1c5;
-  --line-strong: #c2b7a5;
-  --text: #17130f;
-  --muted: #60584d;
-  --accent: #d3443f;
-  --accent-soft: rgba(211, 68, 63, 0.14);
-  --shadow: 0 18px 36px rgba(27, 21, 17, 0.08);
-  --max-width: 1100px;
+  --surface-soft: #f7f7f7;
+  --line: #d9d9d9;
+  --line-strong: #222222;
+  --text: #111111;
+  --muted: #555555;
+  --accent: #e03838;
+  --accent-soft: rgba(224, 56, 56, 0.2);
+  --shadow: 0 4px 10px rgba(0, 0, 0, 0.14);
+  --max-width: 1040px;
 }
 
 * {
@@ -18,9 +18,7 @@
 
 html {
   scroll-behavior: smooth;
-  background:
-    radial-gradient(circle at top right, rgba(211, 68, 63, 0.08), transparent 28%),
-    linear-gradient(180deg, #ffffff 0%, var(--page-bg) 100%);
+  background-color: var(--page-bg);
 }
 
 body {
@@ -29,6 +27,7 @@ body {
   font-family: "Lora", serif;
   color: var(--text);
   line-height: 1.65;
+  background-color: var(--page-bg);
 }
 
 a {
@@ -53,7 +52,7 @@ button:focus-visible {
 .page-shell {
   width: min(100% - 32px, var(--max-width));
   margin: 0 auto;
-  padding: 24px 0 48px;
+  padding: 22px 0 40px;
 }
 
 .site-header {
@@ -71,7 +70,7 @@ button:focus-visible {
 
 .site-nav a {
   font-family: "Alegreya", serif;
-  font-size: 1.35rem;
+  font-size: 1.45rem;
   line-height: 1;
 }
 
@@ -94,16 +93,13 @@ button:focus-visible {
   aspect-ratio: 1;
   border: 1px solid var(--line);
   border-radius: 50%;
-  background:
-    radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.95), transparent 22%),
-    linear-gradient(135deg, #efe4d5 0%, #e9dfd2 48%, #f7f3ea 100%);
-  box-shadow: var(--shadow);
+  background: linear-gradient(180deg, #f8f8f8 0%, #eeeeee 100%);
 }
 
 .profile-photo span {
   font-family: "Alegreya SC", serif;
   font-size: clamp(2.8rem, 5vw, 4.4rem);
-  color: #7d6e5a;
+  color: #8d8d8d;
   letter-spacing: 0.08em;
 }
 
@@ -124,30 +120,22 @@ button:focus-visible {
 .profile-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px 14px;
 }
 
 .profile-links a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 38px;
-  padding: 0 12px;
-  border-radius: 999px;
-  background: var(--surface-soft);
-  color: var(--text);
-  text-decoration: none;
+  color: var(--accent);
+  font-size: 0.98rem;
 }
 
 .profile-links a:hover {
-  background: #eadfce;
   color: var(--accent);
-  text-decoration: none;
 }
 
 .about-column p {
   margin: 0 0 16px;
   font-size: 1.04rem;
-  color: #2b241d;
+  color: var(--text);
 }
 
 .news-block {
@@ -165,7 +153,7 @@ button:focus-visible {
 .news-header h2 {
   margin: 0;
   font-family: "Alegreya", serif;
-  font-size: 1.45rem;
+  font-size: 1.35rem;
   font-weight: 500;
 }
 
@@ -189,7 +177,7 @@ button:focus-visible {
   display: flex;
   gap: 14px;
   align-items: flex-start;
-  padding: 4px 0;
+  padding: 2px 0;
 }
 
 .news-item.is-hidden {
@@ -201,7 +189,7 @@ button:focus-visible {
 }
 
 .news-date {
-  flex: 0 0 5.5rem;
+  flex: 0 0 4.5rem;
   font-family: "Alegreya", serif;
   font-size: 1rem;
   font-weight: 500;
@@ -209,10 +197,11 @@ button:focus-visible {
 
 .news-copy {
   color: var(--muted);
+  font-size: 0.95rem;
 }
 
 .content-section {
-  margin-top: 38px;
+  margin-top: 34px;
 }
 
 .section-heading {
@@ -226,7 +215,7 @@ button:focus-visible {
   font-family: "Alegreya", serif;
   font-size: clamp(1.9rem, 3.5vw, 2.45rem);
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1;
 }
 
 .summary-card,
@@ -234,7 +223,7 @@ button:focus-visible {
   display: grid;
   grid-template-columns: minmax(170px, 220px) minmax(0, 1fr);
   gap: 22px;
-  padding: 22px 0;
+  padding: 20px 0 14px;
 }
 
 .summary-card + .summary-card,
@@ -252,22 +241,20 @@ button:focus-visible {
   place-items: center;
   width: 100%;
   min-height: 140px;
-  padding: 18px;
+  padding: 8px;
   border: 1px solid var(--line);
-  background:
-    linear-gradient(140deg, rgba(211, 68, 63, 0.12), rgba(211, 68, 63, 0.03)),
-    var(--surface);
+  background: linear-gradient(180deg, #fafafa 0%, #f1f1f1 100%);
   box-shadow: var(--shadow);
-  color: #7b6b59;
+  color: #888888;
   font-family: "Alegreya", serif;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   text-align: center;
 }
 
 .summary-title {
   margin: 0 0 4px;
   font-family: "Alegreya", serif;
-  font-size: 1.45rem;
+  font-size: 1.35rem;
   font-weight: 500;
   line-height: 1.2;
   color: var(--text);
@@ -280,7 +267,7 @@ button:focus-visible {
 }
 
 .summary-authors {
-  color: #3e352a;
+  color: var(--text);
 }
 
 .summary-status {
@@ -291,7 +278,6 @@ button:focus-visible {
   display: inline-block;
   margin-left: 8px;
   padding: 1px 10px;
-  border-radius: 999px;
   background: #f6d84f;
   color: #1f1a14;
   font-size: 0.9rem;
@@ -299,8 +285,9 @@ button:focus-visible {
 }
 
 .summary-text {
-  margin-top: 6px;
+  margin-top: 2px;
   color: var(--muted);
+  font-size: 1rem;
 }
 
 .badge-row {
@@ -313,16 +300,17 @@ button:focus-visible {
 .badge-link {
   display: inline-flex;
   align-items: center;
-  min-height: 34px;
-  padding: 0 12px;
-  border-radius: 999px;
+  min-height: 28px;
+  padding: 0 10px;
   background: var(--accent-soft);
   color: var(--text);
   text-decoration: none;
+  font-size: 0.82rem;
+  line-height: 2.1;
 }
 
 .badge-link:hover {
-  background: rgba(211, 68, 63, 0.22);
+  background: rgba(224, 56, 56, 0.28);
   text-decoration: none;
 }
 
@@ -334,7 +322,9 @@ button:focus-visible {
 .site-footer {
   padding-top: 26px;
   color: var(--muted);
-  font-size: 0.92rem;
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-align: right;
 }
 
 @media (max-width: 920px) {
