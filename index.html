@@ -3,161 +3,274 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Your Name | Personal Website</title>
+    <title>[Your Name] | Academic Homepage</title>
     <meta
       name="description"
-      content="Minimal one-page template for a personal website."
+      content="Single-page academic and personal website template inspired by nmwsharp.com."
     >
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500;700&amp;family=Alegreya+SC:wght@500&amp;family=Lora:wght@400;500;600&amp;display=swap"
       rel="stylesheet"
     >
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <!-- Replace the bracketed placeholder text with your own content and links. -->
     <div class="page-shell">
-      <div class="page-glow page-glow-left" aria-hidden="true"></div>
-      <div class="page-glow page-glow-right" aria-hidden="true"></div>
-
       <header class="site-header">
-        <a class="site-brand" href="#top">[Your Name]</a>
         <nav class="site-nav" aria-label="Primary">
           <a href="#about">About</a>
-          <a href="#work">Work</a>
-          <a href="#contact">Contact</a>
+          <a href="#research">Research</a>
+          <a href="#software">Software</a>
+          <a href="https://example.com/your-cv.pdf" target="_blank" rel="noreferrer">
+            CV
+          </a>
         </nav>
       </header>
 
       <main>
-        <section class="hero" id="top">
-          <p class="eyebrow">Minimal personal website template</p>
-          <h1>Small, clear home for your work, writing, and contact details.</h1>
-          <p class="hero-copy">
-            Replace the placeholders, remove any sections you do not need, and
-            keep the site lightweight. This version intentionally strips out the
-            old academic content and leaves a clean static starting point.
-          </p>
-
-          <div class="hero-actions">
-            <a class="button button-primary" href="mailto:hello@example.com">
-              Email
-            </a>
-            <a class="button" href="https://github.com/your-handle">GitHub</a>
-            <a class="button" href="https://www.linkedin.com/in/your-handle/">
-              LinkedIn
-            </a>
-          </div>
-
-          <ul class="hero-notes">
-            <li>[City, Country]</li>
-            <li>[Role or focus area]</li>
-            <li>Available for [full-time work, freelance, collaborations]</li>
-          </ul>
-        </section>
-
-        <section class="section section-split" id="about">
-          <div class="section-intro">
-            <p class="section-label">About</p>
-          </div>
-          <div class="section-body">
-            <p>
-              Hi, I'm <strong>[Your Name]</strong>. Use this space for a short
-              introduction: what you do, what you care about, and the kind of
-              work you want to be known for.
-            </p>
-            <p>
-              Keep it simple. Two or three paragraphs are enough for most
-              personal sites. If you prefer, turn this section into a bio,
-              resume snapshot, or short manifesto.
-            </p>
-          </div>
-        </section>
-
-        <section class="section" id="work">
-          <div class="section-heading">
-            <p class="section-label">Selected Work</p>
-            <p class="section-note">
-              Swap these cards for projects, case studies, writing, talks, or
-              experience.
-            </p>
-          </div>
-
-          <div class="card-grid">
-            <article class="card">
-              <p class="card-kicker">01</p>
-              <h2>[Project Name]</h2>
-              <p>
-                One or two sentences about the problem, what you built, and why
-                it matters.
-              </p>
-              <a class="card-link" href="#">Read more</a>
-            </article>
-
-            <article class="card">
-              <p class="card-kicker">02</p>
-              <h2>[Project Name]</h2>
-              <p>
-                Add a second example to show range, depth, or a different kind
-                of work.
-              </p>
-              <a class="card-link" href="#">View project</a>
-            </article>
-
-            <article class="card">
-              <p class="card-kicker">03</p>
-              <h2>[Project Name]</h2>
-              <p>
-                Keep this section short. A strong homepage usually does not need
-                a long archive.
-              </p>
-              <a class="card-link" href="#">Open link</a>
-            </article>
-          </div>
-        </section>
-
-        <section class="section section-split">
-          <div class="section-intro">
-            <p class="section-label">Now</p>
-          </div>
-          <div class="section-body">
-            <div class="note-panel">
-              <p>[What you're focused on right now]</p>
-              <p class="note-muted">
-                Example: designing developer tools, writing about interface
-                systems, studying motion design, or looking for new
-                collaborations.
-              </p>
+        <section class="about-grid" id="about">
+          <aside class="profile-column" aria-label="Profile">
+            <!-- Replace this monogram block with a headshot image if you want. -->
+            <div class="profile-photo" aria-hidden="true">
+              <span>[YN]</span>
             </div>
+
+            <h1 class="profile-name">[Your Name]</h1>
+            <p class="profile-email">
+              <a href="mailto:hello@example.com">hello@example.com</a>
+            </p>
+
+            <div class="profile-links" aria-label="Social links">
+              <a href="https://github.com/your-handle" rel="noreferrer" target="_blank">
+                GitHub
+              </a>
+              <a href="https://scholar.google.com/" rel="noreferrer" target="_blank">
+                Scholar
+              </a>
+              <a href="https://www.linkedin.com/in/your-handle/" rel="noreferrer" target="_blank">
+                LinkedIn
+              </a>
+              <a href="https://x.com/your-handle" rel="noreferrer" target="_blank">
+                X
+              </a>
+            </div>
+          </aside>
+
+          <div class="about-column">
+            <p>
+              I am a <strong>[researcher / engineer / designer]</strong> working
+              on <strong>[your topic area]</strong>. Use this opening paragraph to
+              explain your current role, what kinds of problems you care about,
+              and what makes your work distinctive.
+            </p>
+            <p>
+              The second paragraph is a good place for a compact background:
+              previous institutions, collaborators, interests, or a sentence
+              about what sits adjacent to your main work. Keep it readable and
+              specific, but short enough that the page still feels lightweight.
+            </p>
+
+            <section class="news-block" aria-labelledby="news-title">
+              <div class="news-header">
+                <h2 id="news-title">News</h2>
+                <button
+                  class="news-toggle"
+                  id="news-toggle"
+                  type="button"
+                  aria-expanded="false"
+                >
+                  ...show all...
+                </button>
+              </div>
+
+              <ul class="news-list" id="news-list">
+                <li class="news-item">
+                  <span class="news-date">Mar 2026</span>
+                  <span class="news-copy">
+                    Add a recent paper, talk, release, award, or job update.
+                  </span>
+                </li>
+                <li class="news-item">
+                  <span class="news-date">Jan 2026</span>
+                  <span class="news-copy">
+                    Note a milestone that helps visitors understand your current
+                    trajectory.
+                  </span>
+                </li>
+                <li class="news-item">
+                  <span class="news-date">Oct 2025</span>
+                  <span class="news-copy">
+                    Share one more recent update before older items collapse.
+                  </span>
+                </li>
+                <li class="news-item is-hidden">
+                  <span class="news-date">Jun 2025</span>
+                  <span class="news-copy">
+                    Older updates can live here without overwhelming the page.
+                  </span>
+                </li>
+                <li class="news-item is-hidden">
+                  <span class="news-date">Feb 2025</span>
+                  <span class="news-copy">
+                    You can link to publications, talks, demos, or open source
+                    releases inside these entries.
+                  </span>
+                </li>
+              </ul>
+            </section>
           </div>
         </section>
 
-        <section class="section contact-section" id="contact">
-          <p class="section-label">Contact</p>
-          <h2>Make it unmistakably yours.</h2>
-          <p class="contact-copy">
-            Replace the links below with your real contact info, social
-            profiles, and preferred call to action.
-          </p>
-
-          <div class="contact-links">
-            <a href="mailto:hello@example.com">hello@example.com</a>
-            <a href="https://github.com/your-handle">
-              github.com/your-handle
-            </a>
-            <a href="https://www.linkedin.com/in/your-handle/">
-              linkedin.com/in/your-handle
-            </a>
+        <section class="content-section" id="research" aria-labelledby="research-heading">
+          <div class="section-heading">
+            <h2 id="research-heading">Research</h2>
           </div>
+
+          <article class="summary-card">
+            <div class="summary-visual">
+              <div class="visual-placeholder">Teaser Image</div>
+            </div>
+            <div class="summary-body">
+              <h3 class="summary-title">[Project Title or Paper Name]</h3>
+              <p class="summary-authors">
+                [Collaborator One], [Collaborator Two], <strong>[Your Name]</strong>
+              </p>
+              <p class="summary-status">
+                [Conference / Journal / Venue], [Year]
+                <span class="summary-highlight">Optional Highlight</span>
+              </p>
+              <p class="summary-text">
+                One compact abstract-like sentence is enough here. Explain what
+                you built, what problem it addresses, and why someone should
+                care in plain language.
+              </p>
+
+              <div class="badge-row" aria-label="Project links">
+                <a class="badge-link" href="https://example.com/project-one">project</a>
+                <a class="badge-link" href="https://example.com/project-one.pdf">pdf</a>
+                <a class="badge-link" href="https://github.com/your-handle/project-one">code</a>
+                <a class="badge-link" href="https://arxiv.org/">arXiv</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="summary-card">
+            <div class="summary-visual">
+              <div class="visual-placeholder">Teaser Image</div>
+            </div>
+            <div class="summary-body">
+              <h3 class="summary-title">[Another Research Project]</h3>
+              <p class="summary-authors">
+                [Collaborator One], <strong>[Your Name]</strong>, [Collaborator Three]
+              </p>
+              <p class="summary-status">[Venue], [Year]</p>
+              <p class="summary-text">
+                Use this card to show range: a second topic, a different method,
+                or a project that demonstrates practical impact.
+              </p>
+
+              <div class="badge-row" aria-label="Project links">
+                <a class="badge-link" href="https://example.com/project-two">project</a>
+                <a class="badge-link" href="https://example.com/project-two.pdf">pdf</a>
+                <a class="badge-link" href="https://github.com/your-handle/project-two">code</a>
+                <a class="badge-link" href="https://example.com/project-two.bib">bibtex</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="summary-card">
+            <div class="summary-visual">
+              <div class="visual-placeholder">Teaser Image</div>
+            </div>
+            <div class="summary-body">
+              <h3 class="summary-title">[Selected Publication or Ongoing Work]</h3>
+              <p class="summary-authors">
+                <strong>[Your Name]</strong>, [Collaborator One], [Collaborator Two]
+              </p>
+              <p class="summary-status">[Venue], [Year]</p>
+              <p class="summary-text">
+                You do not need many items here. Two to five strong summaries
+                usually read better than a very long homepage archive.
+              </p>
+
+              <div class="badge-row" aria-label="Project links">
+                <a class="badge-link" href="https://example.com/project-three">project</a>
+                <a class="badge-link" href="https://example.com/project-three.pdf">pdf</a>
+                <a class="badge-link" href="https://github.com/your-handle/project-three">code</a>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="content-section" id="software" aria-labelledby="software-heading">
+          <div class="section-heading">
+            <h2 id="software-heading">Software</h2>
+          </div>
+
+          <article class="software-card">
+            <div class="software-body">
+              <h3 class="summary-title">[Library or Tool Name]</h3>
+              <p class="summary-text">
+                Describe what the tool does, who it is for, and what makes it
+                useful. If this is your most important public code artifact,
+                keep the summary especially clear.
+              </p>
+              <div class="badge-row" aria-label="Software links">
+                <a class="badge-link" href="https://github.com/your-handle/library-one">github</a>
+                <a class="badge-link" href="https://example.com/library-one-docs">docs</a>
+                <a class="badge-link" href="https://example.com/library-one-demo">demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="software-card">
+            <div class="software-body">
+              <h3 class="summary-title">[Second Package or Dataset]</h3>
+              <p class="summary-text">
+                You can also use this section for datasets, reproducibility
+                resources, talks, teaching material, or a small collection of
+                notable engineering work.
+              </p>
+              <div class="badge-row" aria-label="Software links">
+                <a class="badge-link" href="https://github.com/your-handle/library-two">github</a>
+                <a class="badge-link" href="https://example.com/library-two-paper">paper</a>
+              </div>
+            </div>
+          </article>
         </section>
       </main>
 
       <footer class="site-footer">
-        <p>Static HTML/CSS template for a personal homepage.</p>
+        <p>
+          Static HTML/CSS homepage template inspired by the structure of
+          nmwsharp.com. Replace the placeholder copy, links, and initials with
+          your own details.
+        </p>
       </footer>
     </div>
+
+    <script>
+      const newsToggle = document.getElementById("news-toggle");
+      const hiddenNewsItems = document.querySelectorAll(".news-item.is-hidden");
+
+      if (newsToggle && hiddenNewsItems.length > 0) {
+        newsToggle.addEventListener("click", () => {
+          const expanded = newsToggle.getAttribute("aria-expanded") === "true";
+          const nextExpanded = !expanded;
+
+          newsToggle.setAttribute("aria-expanded", String(nextExpanded));
+          newsToggle.textContent = nextExpanded ? "show less" : "...show all...";
+
+          hiddenNewsItems.forEach((item) => {
+            item.classList.toggle("is-visible", nextExpanded);
+          });
+        });
+      } else if (newsToggle) {
+        newsToggle.hidden = true;
+      }
+    </script>
   </body>
 </html>
