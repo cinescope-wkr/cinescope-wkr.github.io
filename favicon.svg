@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0.12" y1="0.08" x2="0.88" y2="0.92">
+      <stop offset="0" stop-color="#f3b16b"/>
+      <stop offset="0.34" stop-color="#df7836"/>
+      <stop offset="0.70" stop-color="#8e3a24"/>
+      <stop offset="1" stop-color="#4f2119"/>
+    </linearGradient>
+    <radialGradient id="tileLight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 236) scale(338 338)">
+      <stop offset="0" stop-color="#fff1dc" stop-opacity="0.44"/>
+      <stop offset="0.24" stop-color="#f3c18b" stop-opacity="0.30"/>
+      <stop offset="0.60" stop-color="#d57746" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#d57746" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tileShadow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(382 398) scale(330 330)">
+      <stop offset="0" stop-color="#3a160f" stop-opacity="0.22"/>
+      <stop offset="0.56" stop-color="#3a160f" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#3a160f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lightSpot" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(250 240) scale(186 202)">
+      <stop offset="0" stop-color="#fff9ef" stop-opacity="0.98"/>
+      <stop offset="0.16" stop-color="#ffd9a8" stop-opacity="0.76"/>
+      <stop offset="0.38" stop-color="#f29b58" stop-opacity="0.46"/>
+      <stop offset="0.66" stop-color="#bf592d" stop-opacity="0.20"/>
+      <stop offset="0.90" stop-color="#713325" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#713325" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coolFill" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(370 370) rotate(-18) scale(260 260)">
+      <stop offset="0" stop-color="#5d2b1f" stop-opacity="0.055"/>
+      <stop offset="0.55" stop-color="#5d2b1f" stop-opacity="0.022"/>
+      <stop offset="1" stop-color="#5d2b1f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="specimenShadow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(272 304) scale(120 146)">
+      <stop offset="0" stop-color="#7b4330" stop-opacity="0.11"/>
+      <stop offset="0.48" stop-color="#7b4330" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#7b4330" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ambientBleed" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 252) scale(226 226)">
+      <stop offset="0" stop-color="#fff0e0" stop-opacity="0.16"/>
+      <stop offset="0.40" stop-color="#f1ad79" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#f1ad79" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="specimenCore" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 260) scale(118 144)">
+      <stop offset="0" stop-color="#fffdf8" stop-opacity="0.82"/>
+      <stop offset="0.28" stop-color="#ffd7a2" stop-opacity="0.60"/>
+      <stop offset="0.68" stop-color="#de966c" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#b06f57" stop-opacity="0.05"/>
+    </radialGradient>
+    <linearGradient id="ribScatter" x1="256" y1="124" x2="256" y2="390" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffdf8" stop-opacity="0.14"/>
+      <stop offset="0.18" stop-color="#fff6e8" stop-opacity="0.34"/>
+      <stop offset="0.50" stop-color="#fff8ee" stop-opacity="0.46"/>
+      <stop offset="0.82" stop-color="#f8ecdd" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#efe0cf" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="ribCore" x1="256" y1="124" x2="256" y2="390" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffefb"/>
+      <stop offset="0.28" stop-color="#fff8f0"/>
+      <stop offset="0.62" stop-color="#fff6ec"/>
+      <stop offset="1" stop-color="#f8ede1"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="8" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="24" result="b"/>
+      <feColorMatrix in="b" type="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 0.50 0" result="g"/>
+      <feMerge>
+        <feMergeNode in="g"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="washiTexture" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.032" numOctaves="2" seed="7" result="noise"/>
+      <feColorMatrix in="noise" type="matrix"
+        values="1 0 0 0 0
+                0 0.82 0 0 0
+                0 0.60 0 0 0
+                0 0 0 0.12 0" result="coloredNoise"/>
+      <feComposite in="coloredNoise" in2="SourceAlpha" operator="in" result="maskedNoise"/>
+      <feBlend mode="multiply" in="SourceGraphic" in2="maskedNoise" result="textured"/>
+      <feGaussianBlur in="textured" stdDeviation="0.45" result="softTextured"/>
+      <feMerge>
+        <feMergeNode in="softTextured"/>
+      </feMerge>
+    </filter>
+    <filter id="ribShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="0.18"/>
+    </filter>
+    <filter id="burstGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="b1"/>
+      <feGaussianBlur stdDeviation="18" result="b2"/>
+      <feColorMatrix in="b2" type="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 0.52 0" result="g2"/>
+      <feMerge>
+        <feMergeNode in="g2"/>
+        <feMergeNode in="b1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="burstAlpha" cx="256" cy="256" r="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="0.55" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.80" stop-color="#ffffff" stop-opacity="0.70"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.30"/>
+    </radialGradient>
+    <mask id="burstMask">
+      <rect width="512" height="512" fill="url(#burstAlpha)"/>
+    </mask>
+    <clipPath id="tileClip">
+      <rect x="0" y="0" width="512" height="512" rx="124"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#tileClip)">
+    <!-- Light, gallery-like tile (clipped to rounded square; outside is transparent) -->
+    <rect x="0" y="0" width="512" height="512" rx="124" fill="url(#bg)"/>
+    <rect x="0" y="0" width="512" height="512" rx="124" fill="url(#tileLight)"/>
+    <rect x="0" y="0" width="512" height="512" rx="124" fill="url(#tileShadow)"/>
+    <rect x="0" y="0" width="512" height="512" rx="124" fill="url(#ambientBleed)"/>
+    <rect x="0" y="0" width="512" height="512" rx="124" fill="none" stroke="#f0dfcf" stroke-opacity="0.08" stroke-width="2.2"/>
+    <rect x="26" y="26" width="460" height="460" rx="108" fill="none" stroke="#f6ebdf" stroke-opacity="0.40" stroke-width="3.8"/>
+
+    <g transform="translate(256 256) scale(1.18) translate(-256 -256)">
+    <!-- Physical-ish light: warm key + cool fill, with directional haze -->
+    <circle cx="350" cy="350" r="212" fill="url(#coolFill)"/>
+    <g filter="url(#glow)">
+      <circle cx="250" cy="240" r="188" fill="url(#lightSpot)"/>
+    </g>
+
+    <!-- Geometric construction lines -->
+    <g fill="none" stroke="#f1e0d1" stroke-opacity="0.12" stroke-width="3.6">
+      <circle cx="256" cy="256" r="166" stroke="#f7ede3" stroke-opacity="0.40" stroke-width="4.3"/>
+      <circle cx="256" cy="256" r="98" stroke-opacity="0.20"/>
+      <path d="M256 90 L256 132" stroke-opacity="0.20"/>
+      <path d="M256 132 L256 392" stroke-opacity="0.20"/>
+      <path d="M256 392 L256 422" stroke-opacity="0.20"/>
+      <path d="M90 256 L422 256" stroke-opacity="0.20"/>
+      <path d="M139 139 L373 373" stroke-opacity="0.18"/>
+      <path d="M373 139 L139 373" stroke-opacity="0.18"/>
+    </g>
+
+    <!-- Cambrian “specimen” (simple trilobite-like geometry) -->
+    <g>
+      <g filter="url(#washiTexture)">
+        <ellipse cx="256" cy="260" rx="112" ry="136" fill="url(#specimenCore)"/>
+      </g>
+      <ellipse cx="256" cy="260" rx="112" ry="136" fill="url(#specimenShadow)"/>
+      <g fill="none" stroke="url(#ribScatter)" stroke-width="3.15" stroke-linecap="round" opacity="0.18" filter="url(#ribShadow)">
+        <ellipse cx="256" cy="208" rx="70" ry="68"/>
+        <path d="M212 258 Q 256 222 300 258"/>
+        <path d="M204 310 Q 256 270 308 310"/>
+        <path d="M211 344 Q 256 308 301 344"/>
+        <path d="M256 124 L256 390"/>
+        <ellipse cx="256" cy="260" rx="112" ry="136" stroke-width="4.1"/>
+      </g>
+      <g fill="none" stroke="url(#ribCore)" stroke-linecap="round" stroke-linejoin="round" opacity="0.22">
+        <ellipse cx="256" cy="260" rx="112" ry="136" stroke-width="1.26"/>
+        <ellipse cx="256" cy="208" rx="70" ry="68" stroke-width="1.05"/>
+        <path d="M212 258 Q 256 222 300 258" stroke-width="1.05"/>
+        <path d="M204 310 Q 256 270 308 310" stroke-width="0.96" opacity="0.76"/>
+        <path d="M211 344 Q 256 308 301 344" stroke-width="0.92" opacity="0.70"/>
+        <path d="M256 124 L256 390" stroke-width="0.92" opacity="0.72"/>
+      </g>
+      <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" opacity="0.05">
+        <ellipse cx="256" cy="260" rx="112" ry="136" stroke-width="0.82"/>
+        <ellipse cx="256" cy="208" rx="70" ry="68" stroke-width="0.68"/>
+        <path d="M212 258 Q 256 222 300 258" stroke-width="0.66"/>
+      </g>
+    </g>
+
+    <!-- Diversification “burst” ring (explosion motif, kept minimal) -->
+    <g mask="url(#burstMask)">
+      <g fill="none" stroke="#f8f0e5" stroke-width="11.8" stroke-linecap="round" opacity="0.08" filter="url(#burstGlow)">
+        <path d="M220.2 112.4 A148 148 0 0 1 286.77 111.23"/>
+        <path d="M399.6 291.8 A148 148 0 0 1 369.37 351.13"/>
+        <path d="M139.38 347.13 A148 148 0 0 1 111.24 286.77"/>
+      </g>
+      <g fill="none" stroke="#f8f1e7" stroke-width="3.85" stroke-linecap="round" opacity="0.08">
+        <path d="M220.2 112.4 A148 148 0 0 1 286.77 111.23"/>
+        <path d="M399.6 291.8 A148 148 0 0 1 369.37 351.13"/>
+        <path d="M139.38 347.13 A148 148 0 0 1 111.24 286.77"/>
+      </g>
+    </g>
+    </g>
+  </g>
+</svg>

@@ -1,8 +1,0 @@
-@article{soliman2025affine,
-  title={The Affine Heat Method},
-  author={Yousuf Soliman, Nicholas Sharp,
-  booktitle={Computer Graphics Forum},
-  volume={44},
-  number={5},
-  year={2025}
-}
