@@ -120,16 +120,28 @@ button:focus-visible {
 .profile-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 14px;
+  gap: 4px 10px;
 }
 
 .profile-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
   color: var(--accent);
-  font-size: 0.98rem;
+  font-size: 1.7rem;
+  text-decoration: none;
 }
 
 .profile-links a:hover {
   color: var(--accent);
+  opacity: 0.72;
+  text-decoration: none;
+}
+
+.profile-links .ai {
+  font-size: 1.55rem;
 }
 
 .about-column p {
@@ -389,7 +401,6 @@ button:focus-visible {
     flex-basis: auto;
   }
 
-  .profile-links a,
   .badge-link {
     width: 100%;
     justify-content: center;
